@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
-  <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-</head>
-<body>
-  <div id="app">
-    <v-app>
-      <v-content>
-            <v-parallax src="content/light.jpg">
-                
-            </v-parallax>
-      </v-content>
-    </v-app>
-  </div>
- 
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
-  <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
-  <script>
-    new Vue({ el: '#app' })
 
-  </script>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+	<link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+
+<body>
+	<div id="app">
+		<v-app>
+			<v-parallax src="content/light.jpg" height="1200">
+				<v-layout column align-center justify-center>
+					<h1></h1>
+					<h1 class="white--text">Hugo Bock</h1>
+				</v-layout>
+			</v-parallax>
+			<div style="background-color:blue; height:1400px;">
+					Salut
+				</div>
+		</v-app>
+	</div>
+	
+
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+	<script>
+		new Vue({ el: '#app' })
+
+	</script>
 
 </body>
+
 </html>
