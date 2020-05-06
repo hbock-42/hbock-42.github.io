@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta
@@ -7,12 +7,20 @@
     />
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Unity WebGL Player | SuperShapes</title>
+    <!-- <title>Unity WebGL Player | SuperShapes</title>
     <script src="webgl/SuperVolume/Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate(
         "gameContainer",
         "webgl/SuperVolume/Build/WebGl.json"
+      );
+    </script> -->
+    <title>Unity WebGL Player | A*</title>
+    <script src="webgl/astar-webgl/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate(
+        "gameContainer",
+        "webgl/astar-webgl/Build/astar-webgl.json"
       );
     </script>
   </head>
@@ -21,28 +29,6 @@
     <div
       id="gameContainer"
       style="width: 100vw; height: 100vh; margin: auto;"
-    ></div>
-  </body>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Unity WebGL Player | Pathfinding_AStar</title>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate(
-        "gameContainer",
-        "Build/astar-webgl.json"
-      );
-    </script>
-  </head>
-  <body style="background-color: black;">
-    <div
-      id="gameContainer"
-      style="width: 960px; height: 600px; margin: auto;"
     ></div>
   </body>
 </html>
